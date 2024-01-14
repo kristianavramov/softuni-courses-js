@@ -1,0 +1,64 @@
+
+.sub-list .image-wrapper{
+    width: 50%;
+}
+
+.sub-list .text {
+    width: 50%;
+    
+}
+.sub-list .text h3{
+    font-size: 20px;
+line-height: 43px;
+color: #212121;
+font-weight: 700;
+font-family: "Open Sans";
+
+}
+.sub-list .text hr{
+    border: 1px solid #ff8b38;
+    margin: 27px 0;
+    width: 12%;
+}
+.sub-list .sub-list-first-p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+width: 80%;
+margin-top: 27px;
+padding-bottom: 40px;
+}
+.icon-and-text {
+    display: flex;
+    padding: 10px;
+}
+.icon-and-text a{
+    border: 1px solid #ff8b38;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 50%;
+    margin-right: 20px;
+    
+}
+.icon-and-text i{
+    color: #ff8b38;
+    
+}
+.icon-and-text h5{
+    font-size: 14px;
+line-height: 17px;
+color: #212121;
+font-weight: 600;
+font-family: "Open Sans";
+margin-bottom: 10px;
+}
+.icon-and-text p {
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}

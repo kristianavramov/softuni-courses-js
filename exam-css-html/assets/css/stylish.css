@@ -1,0 +1,55 @@
+.stylish{
+    height: 320px;
+    background-image: url('../images/stylish-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness();
+}
+.stylish::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(48, 50, 71, 0.7);
+}
+.stylish .container{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stylish h2{
+    font-size: 36px;
+color: #ffffff;
+font-family: "Raleway";
+padding-bottom: 40px;
+}
+.stylish hr{
+    border: 3px solid #fff;
+    margin: 27px 0;
+    width: 10%;
+    
+}
+.stylish p{
+    opacity: 0.800;
+font-size: 16px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Raleway";
+padding-bottom: 40px;
+padding-top: 40px;
+}
+.stylish button{
+    font-size: 15px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+height: 40px;
+width: 130px;
+border: 1px solid #ffffff;
+background-color: transparent;
+cursor: pointer;
+}

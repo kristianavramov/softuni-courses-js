@@ -1,0 +1,58 @@
+.testimonials{
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonials h2{
+    font-size: 36px;
+line-height: 43px;
+color: #212121;
+font-family: "Raleway";
+
+}
+.testimonials hr{
+    border: 1px solid #ff8b38;
+    margin: 27px 0;
+    width: 5%;
+}
+.testimonials .container-first-p{
+    font-size: 14px;
+line-height: 20px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.testimonials .container .quotes{
+    width: 30%;
+    gap: 10px;
+    height: 240px;
+}
+.quotes .second-p{
+    font-size: 14px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+width: 80%;
+background-color: #f5f5f5;
+text-align: left;
+}
+.quotes div{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.quotes div p{
+    font-size: 20px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+padding-left: 15px;
+}
+.quotes div span{
+    font-size: 14px;
+color: #86878b;
+font-weight: 400;
+font-family: "Open Sans";
+}

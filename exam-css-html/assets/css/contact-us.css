@@ -1,0 +1,86 @@
+.contact-us {
+  height: 500px;
+  background-color: #fff;
+}
+
+.contact-us .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us .container h2 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-family: "Raleway";
+}
+
+.contact-us hr {
+  border: 1px solid #ff8b38;
+  margin: 40px 0;
+  width: 12%;
+}
+.contact-us-header-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-us-form .contact-us-left-form {
+  width: 40%;
+}
+.contact-us-form .contact-us-right-form {
+  width: 40%;
+}
+.contact-us-form .contact-us-left-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-us-form .contact-us-right-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-us form input {
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+  display: block;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  height: 40px;
+}
+
+.contact-us .contact-us-right-form form input {
+  height: 235px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.btn-container .btn-send {
+  background-color: #ff8b38;
+  border: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}

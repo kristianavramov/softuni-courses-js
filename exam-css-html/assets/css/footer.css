@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  gap: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 20px;
+  font-size: x-large;
+}
+
+.footer-text {
+  padding-bottom: 20px;
+  font-size: small;
+  color: #86878b;
+}
